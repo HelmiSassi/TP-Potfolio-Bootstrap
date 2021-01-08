@@ -6,7 +6,7 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="assets/dist/css/bootstrap.min.css">
 </head>
-<body class="">
+<body class="bg-img">
     <div class="container-fluid">
         <div class="nav nav-tabs nav justify-content-end" >
            
@@ -32,7 +32,7 @@
               <ul class="navbar-nav ">
                   
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="accueil.html">Accueil</a>
+                  <a class="nav-link" aria-current="page" href="accueil.html">Accueil</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="cv.html">Mon CV</a>
@@ -41,7 +41,7 @@
                   <a class="nav-link" href="projets.html">Nos Projets</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
+                  <a class="nav-link active" href="contact.html">Contact</a>
                 </li>
                 
               </ul>
@@ -51,30 +51,29 @@
     </nav>
 
     <section style="height: 1000px;">
-        <h1></h1>
-        <p><br></p>
-        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="assets/images/sucess.jpg" class="rounded mx-auto d-block"  alt="slide1">
-              </div>
-              <div class="carousel-item">
-                <img src="assets/images/Success-road.jpg" class="rounded mx-auto d-block"  style="width: 1200px;height: 800px;" alt="slide2">
-              </div>
-              <div class="carousel-item">
-                <img src="assets/images/success2.jpg" class="rounded mx-auto d-block" style="width: 1200px;height: 800px;" alt="slide3">
-              </div>
+        <div class="card" style="height:500px;margin-top:100px;margin-left:12%;">
+            <div class="card-header bg-info">
+                Contact
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </a>
-            
-          </div>
+            <div class="card-body">
+                <form action="mailto:c.helmi@live.fr" method="POST">
+                <div class="card-title">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="card-title">
+                    <label for="exampleFormControlTextarea1" class="form-label">Commentaire</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div>
+                    <input class="submit btn-secondary" type="submit" value="Envoyer">
+                </div>
+                </form>
+                <div class="text-center">Tel : 06XXXXXXXX </div>
+                <div class="text-center">Adresse : 101 Rue Victor Hugo Beb El Oued <br> 209991 Bidule-sur seine</div>
+            </div>
+        
+        </div>
     </section>
     <footer>
         <h6 class="text-center">Informations - Mentions légales - Contact</h6>
